@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapBehaviorDemo", "SnapBehaviorDemo\SnapBehaviorDemo.csproj", "{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Debug|iPhone.Build.0 = Debug|iPhone
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Release|iPhone.Build.0 = Release|iPhone
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A7BA9609-B81C-49CD-A43F-38F0BB4BE454}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SnapBehaviorDemo\SnapBehaviorDemo.csproj
+	EndGlobalSection
+EndGlobal
