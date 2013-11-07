@@ -37,6 +37,7 @@ namespace SnapBehaviorDemo
 			panGesture = new UIPanGestureRecognizer ((pg) => {
 				if ((pg.State == UIGestureRecognizerState.Began || pg.State == UIGestureRecognizerState.Changed) && (pg.NumberOfTouches == 1)) {
 
+					// remove any previosuly applied snap behavior to avoid a flicker that will occur if both the gesture and physics are operating on the view simultaneously
 					if (snap != null)
 						animator.RemoveBehavior (snap);
 
@@ -48,6 +49,9 @@ namespace SnapBehaviorDemo
 					if (dy == 0)
 						dy = p0.Y - imageView.Center.Y;
 
+
+					// this is where the offsets are applied so that the location of the image follows the point where the image is touched as it is dragged,
+					// otherwise the center of the image would snap to the touch point at the start of the pan gesture
 					var p1 = new PointF (p0.X - dx, p0.Y - dy);
 
 					imageView.Center = p1;
