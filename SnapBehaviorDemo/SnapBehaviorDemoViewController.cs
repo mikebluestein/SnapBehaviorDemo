@@ -24,6 +24,7 @@ namespace SnapBehaviorDemo
 
 			animator = new UIDynamicAnimator (View);
 
+			// offsets used to position image relative to touch point while being dragged
 			float dx = 0;
 			float dy = 0;
 
@@ -51,6 +52,8 @@ namespace SnapBehaviorDemo
 
 					imageView.Center = p1;
 				} else if (pg.State == UIGestureRecognizerState.Ended) {
+
+					// reset offsets when dragging ends so that they will be recalculated for next touch and drag that occurs
 					dx = 0;
 					dy = 0;
 
